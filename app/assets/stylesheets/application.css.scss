@@ -44,6 +44,17 @@
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #cb2d3e;
+  }
+}
+
 /*  To make sure the Home page callout and navbar have contiguous background
     gradient and white text color */
 .home-callout {
