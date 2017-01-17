@@ -1,1 +1,40 @@
-<h1>Donor Form</h1>
+<div class="container">
+  <h3 class="text-center">Donor Form</h3>
+  
+  <%= form_for "/contacts" do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %> 
+    
+    <%= f.label :age %>
+    <%= f.text_field :age %> 
+    
+    <%= f.label :sex %>
+    <%= f.text_field :sex %> 
+    
+    <%= f.label :dob %>
+    <%= f.text_field :dob %> 
+    
+    <%= f.label :fathers_name %>
+    <%= f.text_field :fathers_name %> 
+    
+    <%= f.label :occupation %>
+    <%= f.text_field :occupation %> 
+    
+    <%= f.label :organisation %>
+    <%= f.text_field :organisation %>
+    
+    <%= f.label :address %>
+    <%= f.text_area :address %>
+    
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+    
+    <%= f.label :phone %>
+    <%= f.text_field :phone %>
+    
+    <%= f.submit "Submit" %>
+  <% end %>
+  
+  
+  
+</div>
