@@ -10,7 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170123181834) do
+ActiveRecord::Schema.define(version: 20170207142756) do
+
+  create_table "blood_bags", force: :cascade do |t|
+    t.string   "bag_number"
+    t.string   "segment_number"
+    t.string   "blood_type"
+    t.string   "blood_group"
+    t.string   "rh_type"
+    t.string   "date_collection"
+    t.string   "date_expiry"
+    t.string   "anticoagulant"
+    t.string   "volume"
+    t.string   "storage_temperature"
+    t.string   "HIV"
+    t.string   "HBsAG"
+    t.string   "HCV"
+    t.string   "VDRL"
+    t.string   "MP"
+    t.string   "date_issue"
+    t.string   "time_issue"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+  end
 
   create_table "contacts", force: :cascade do |t|
     t.string   "name"
