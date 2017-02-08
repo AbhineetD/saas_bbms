@@ -16,5 +16,7 @@ class BloodGroup < ActiveRecord::Base
   validates :MP, presence: true
   validates :date_issue, presence: true
   validates :time_issue, presence: true
-          
+  
+  belongs_to :contact
+  
 end

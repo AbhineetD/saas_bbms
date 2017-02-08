@@ -11,4 +11,6 @@ class Contact < ActiveRecord::Base
   #validates :email, presence: true
   validates :phone, presence: true
   
+  has_many :blood_bags
+  
 end
