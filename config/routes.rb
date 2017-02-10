@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   resources :contacts
   get 'new-donor', to: 'contacts#new'
+  get 'users/show', to: 'users#show', as: 'users_show'
 end
