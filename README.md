@@ -2,10 +2,10 @@
 
 [BloodBank Management System] Software-as-a-Service Ruby on Rails App.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is still under development. If you wish to contribute, drop me a message!
+It is meant to provide secure, easy to use to services for Blood Banks in developing nations.
 
-Things you may want to cover:
+/* To be filled in soon */
 
 * Ruby version
 
